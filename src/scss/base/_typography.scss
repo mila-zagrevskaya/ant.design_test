@@ -1,0 +1,56 @@
+%title {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  display: block;
+  text-align: start;
+  line-height: 1.5;
+}
+
+.title-1 {
+  @extend %title;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  margin-bottom: 40px;
+  @media (min-width: $breakpoint-xxs) {
+    font-size: 20px;
+    text-align: center;
+  }
+  @media (min-width: $breakpoint-sm) {
+    font-size: 24px;
+    text-align: start;
+  }
+  @media (min-width: $breakpoint-md) {
+    font-size: 44px;
+  }
+}
+
+.title-2 {
+  @extend %title;
+  font-size: 2rem;
+  text-align: start;
+}
+
+.title-3 {
+  @extend %title;
+  font-size: 1.75rem;
+  text-align: start;
+}
+
+.title-5 {
+  @extend %title;
+  font-size: 1.25rem;
+  text-align: start;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+small {
+  font-weight: 400;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

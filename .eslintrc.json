@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "es6": true,
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+
+    "parser": "babel-eslint",
+
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-unused-vars": 0,
+        "no-console": ["off"],
+        "quotes": ["error", "single"],
+        "jsx-quotes": ["error", "prefer-double"],
+        "max-len": ["error", { "code": 120, "tabWidth": 2 }],
+        "arrow-parents": ["off", { "requireForBlockBody": true }],
+        "import/prefer-default-export": "off",
+        "eslint no-param-reassign": ["off", { "props": false }],
+        "no-prototype-builtins": "off"
+    }
+}

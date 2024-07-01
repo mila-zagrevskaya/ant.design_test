@@ -1,0 +1,25 @@
+.steps-row {
+  margin-top: 55px;
+}
+
+.steps-content {
+  min-height: 150px;
+  margin: 15px 0;
+  padding: 15px 20px;
+  color: #00025ad9;
+  border: 1px solid  #00025ad9;
+  border-radius: 5px;
+}
+
+.steps-action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+  background: #5762a4;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  border-color: #5762a4;
+}

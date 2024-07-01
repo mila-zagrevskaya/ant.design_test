@@ -1,0 +1,43 @@
+.ant-layout-sider {
+  color: #001529;
+  background-image: url(../../../assets/images/header_image.jpeg);
+  background-position-y: 42%;
+}
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.ant-menu-root.ant-menu-vertical, 
+.ant-menu-root.ant-menu-vertical-left, 
+.ant-menu-root.ant-menu-vertical-right, 
+.ant-menu-root.ant-menu-inline, 
+.ant-menu-sub.ant-menu-inline {
+  background: rgba(255, 255, 255, 0.4);
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected,
+.ant-menu-submenu-selected {
+  background-color: #e6f7ff80;
+  color: #5762a4;
+}
+.ant-menu-vertical .ant-menu-item::after, 
+.ant-menu-vertical-left .ant-menu-item::after, 
+.ant-menu-vertical-right .ant-menu-item::after, 
+.ant-menu-inline .ant-menu-item::after {
+  border-color: #5762a4;
+}
+.ant-menu-item:hover, 
+.ant-menu-item-active, 
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, 
+.ant-menu-submenu-active, 
+.ant-menu-submenu-title:hover {
+  color: #5762a4;
+  box-shadow: inset 0.1rem 0.1rem 1rem #e6f7ff80, inset -0.1rem -0.1rem 1rem #fff;
+}
+.ant-layout-sider-trigger {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: .6;
+}

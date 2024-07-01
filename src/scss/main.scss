@@ -1,0 +1,27 @@
+@import '~antd/dist/antd.css';
+
+@import "variables/variables";
+@import "mixins/mixins";
+@import "layout/layout";
+
+//base
+@import "base/flex";
+@import "base/fonts";
+@import "base/global";
+@import "base/grid";
+@import "base/helpers";
+@import "base/icons";
+@import "base/typography";
+
+// common
+@import "components/common/pagination";
+
+//components
+@import "components/modules/header";
+@import "components/modules/sidebar";
+@import "components/modules/main-content";
+@import "components/modules/card-panel";
+@import "components/modules/progress-bar";
+@import "components/modules/steps";
+@import "components/modules/tables";
+@import "components/modules/footer";

@@ -1,0 +1,22 @@
+.ant-layout-footer {
+  position: relative;
+  color: #5762a4;
+  background-image: url(../../../assets/images/header_image.jpeg);
+  background-position-y: 55%;
+  transform: rotate(180deg);
+}
+.footer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.footer-content {
+  z-index: 1;
+  transform: rotate(180deg);
+  color: #5762a4;
+}
+
